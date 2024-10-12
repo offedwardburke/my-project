@@ -4,17 +4,17 @@
     "description": "A sample project",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "build": "gulp build",
-      "test": "echo \"Error: no test specified\""
+        "start": "node index.js",
+        "build": "gulp build",
+        "test": "echo \"Error: no test specified\""
     },
     "author": "Your Name",
     "license": "ISC",
     "dependencies": {
-      "gulp": "^5.0.0"
+        "browsersync": "^0.0.1-security",
+        "gulp": "^5.0.0"
     },
     "devDependencies": {
-      "gulp": "^5.0.0"
+        "gulp": "^5.0.0"
     }
-  }
-  
+}
