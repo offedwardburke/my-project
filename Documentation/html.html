@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>HTML | Probic Bootstrap 5 Admin & Dashboard Template by Pichforest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Probic Premium Multipurpose Admin & Dashboard Template documentation" name="description" />
+    <meta content="Pichforest" name="author" />
+    <meta name="keywords" content="Probic admin documentation, Probic documentation, Probic HTML5 documentation">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-topbar="dark" data-spy="scroll" data-target=".right-side-nav" data-offset="175">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-sm.png" alt="" height="25">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="24">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect d-lg-none" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                </div>
+
+                <div class="d-flex">
+                    <!-- <div class="d-inline-block">
+                        <a href="#" target="_blank" class="header-item">Support</a>
+                    </div> -->
+                    <!-- <div class="d-inline-block">
+                        <a href="#" target="_blank" class="header-item">Buy Now</a>
+                    </div> -->
+
+                    <div class="d-inline-block">
+                        <h5 class="header-item m-0"><span class="badge badge-danger">v1.0.0</span></h5>
+                    </div>
+            
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Docs</li>
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-text-box-outline"></i>
+                                <span>Introduction</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Setup</li>
+
+                        <li>
+                            <a href="html.html" class=" waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>HTML5</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Other</li>
+
+                        <li>
+                            <a href="changelog.html" class=" waves-effect">
+                                <i class="mdi mdi-format-list-bulleted"></i>
+                                <span>Changelog</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="p-lg-1">
+
+                                        <div class="d-xl-flex">
+
+                                            <div class="w-100">
+
+                                                <h4 class="mt-0 mb-4">Setup HTML</h4>
+
+                                                <div id="desc" class="mb-5">
+                                                    <h5 class="mt-4">Introduction</h5>
+                                                    <p>
+                                                        We are using
+                                                        <a href="https://gulpjs.com/" target="_blank">gulp</a> which
+                                                        allows having complete automation for build flow. In case if you
+                                                        don't know Gulp then it's easy to use it. Gulp is a toolkit for
+                                                        automating painful or time-consuming tasks in the development
+                                                        workflow, so you can stop messing around while building any
+                                                        project. You can read it more about it <a
+                                                            href="https://gulpjs.com/" target="_blank">here</a>.
+                                                        Please follow below steps to install and setup all
+                                                        prerequisites:
+                                                    </p>
+                                                </div>
+
+                                                <div id="prerequisites" class="mb-5">
+                                                    <h5 class="mt-4">Prerequisites</h5>
+
+                                                    <p>
+                                                        Please follow below steps to install and setup all
+                                                        prerequisites:
+                                                    </p>
+
+
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Yarn</strong>
+                                                            <p>
+                                                                Make sure to have the <a
+                                                                    href="https://classic.yarnpkg.com/en/"
+                                                                    target="_blank">Yarn</a> installed &amp; running
+                                                                in your computer.
+                                                                If you already have installed Yarn on your computer, you
+                                                                can skip this step. We suggest you to use Yarn instead
+                                                                of NPM.</p>
+                                                        </li>
+                                                        <li>
+                                                            <strong>Nodejs</strong>
+                                                            <p>
+                                                                Make sure to have the <a href="https://nodejs.org/"
+                                                                    target="_blank">Node.js</a> installed &amp; running
+                                                                in your computer.
+                                                                If you already have installed Node on your computer, you
+                                                                can skip this step if your existing node letest version 16.13.2. </p>
+                                                        </li>
+
+                                                        <li>
+                                                            <strong>Gulp</strong>
+
+                                                            <p>Make sure to have the <a href="https://gulpjs.com/"
+                                                                    target="_blank">Gulp</a> installed &amp; running in
+                                                                your computer. If you already have installed gulp on run
+                                                                command <code>npm install -g gulp</code> from your
+                                                                terminal.</p>
+                                                        </li>
+
+                                                        <li>
+                                                            <strong>Git</strong>
+
+                                                            <p>Make sure to have the <a href="https://git-scm.com/"
+                                                                    target="_blank">Git</a> installed globally &amp;
+                                                                running on your computer. If you already have installed
+                                                                git on your computer, you can skip this step.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div id="installation" class="mb-5">
+                                                    <h5 class="mt-4">Installation</h5>
+
+                                                    <p>
+                                                        To setup the admin theme, follow below-mentioned steps:
+                                                    </p>
+
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Install Prerequisites</strong>
+                                                            <p>
+                                                                Make sure to have all above prerequisites installed
+                                                                &amp; running on your computer
+                                                            </p>
+                                                        </li>
+
+                                                    </ul>
+
+
+                                                    <p class="mt-4">
+                                                        After you finished with the above steps, you can run the
+                                                        following commands into the terminal / command prompt from the
+                                                        root directory of the project to run the project locally or
+                                                        build for
+                                                        production use:
+                                                    </p>
+                                                    <table class="table table-bordered m-0">
+                                                        <thead>
+                                                            <tr>
+                                                                <th style="width: 20%;">
+                                                                    <i class="ti-file"></i> Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <code>yarn install</code>
+                                                                </td>
+                                                                <td>
+                                                                    This would install all the required dependencies in
+                                                                    the <code>node_modules</code> folder.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <code>gulp</code>
+                                                                </td>
+                                                                <td>
+                                                                    Runs the project locally, starts the development
+                                                                    server and watches for any changes in your code,
+                                                                    including your HTML, javascript, sass, etc. The
+                                                                    development server is accessible at <a
+                                                                        href='http://localhost:3000'>http://localhost:3000</a>.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <code>gulp build</code>
+                                                                </td>
+                                                                <td>
+                                                                    Generates a <code>/dist</code> directory with all
+                                                                    the production files.
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div id="menu-item" class="mb-5">
+                                                    <p>
+                                                        You can change or customize the left side navigation very
+                                                        easily.
+                                                    </p>
+
+                                                    <h5 class="mt-0 mb-2 font-size-18"><i class="mdi mdi-star text-warning"></i> How to add new menu
+                                                        items/change menu items?</h5>
+
+                                                    <p>
+                                                    <dl>
+                                                        <dd> In order to add, change or remove menu items from the
+                                                            left side navigation, simply edit in file
+                                                            <code>src/partials/sidebar.html</code>. The change would
+                                                            reflect in all the html files automatically.
+                                                            We are using <a
+                                                                href="https://www.npmjs.com/package/gulp-file-include"><code>gulp-file-include</code></a>
+                                                            which would actually take
+                                                            care of including the <code>sidebar.html</code> file
+                                                            content in the all html pages.
+                                                        </dd>
+                                                        
+                                                    </dl>
+                                                    </p>
+                                                </div>
+
+                                                <div id="change-width" class="mb-5">
+                                                    <h5 class="mt-0 mb-2 font-size-18"><i class="mdi mdi-star text-warning"></i> How to change width?</h5>
+                                                    <dl>
+                                                        <dd>
+                                                            In order to change the width of left side navigation
+                                                            bar,
+                                                            open a file
+                                                            <code>src/assets/scss/_variables.scss</code> and change
+                                                            the
+                                                            value of variable
+                                                            <code>$sidebar-width</code>. The default value is set to
+                                                            <code>240px</code>.
+                                                        </dd>
+                                                    </dl>
+                                                    
+                                                    </p>
+                                                </div>
+
+                                                <div id="light-version" class="mb-3">
+                                                    <h4 class="mt-0 mb-1">Light Version</h4>
+                                                    <p class="mb-0">
+                                                        Keep your body element with data attribute
+                                                        <code>data-layout-mode="light"</code> E.g.
+                                                        <code> &lt;body data-layout-mode="light"&gt;</code> to
+                                                        have light layout.
+                                                    </p>
+                                                </div>
+
+                                                <div id="dark-version" class="mb-3">
+                                                    <h4 class="mt-0 mb-1">Dark Version</h4>
+                                                    <p class="mb-0">
+                                                        Keep your body element with data attribute
+                                                        <code>data-layout-mode="dark"</code> E.g.
+                                                        <code> &lt;body data-layout-mode="dark"&gt;</code> to
+                                                        have dark layout.
+                                                    </p>
+                                                </div>
+
+                                                <div id="rtl-version" class="mb-5">
+                                                    <h4 class="mt-0 mb-1">RTL Version</h4>
+                                                    <p class="mb-0">
+                                                        To have rtl layout enabled, replace the reference of
+                                                        <code>app.min.css</code> to
+                                                        <code>app-rtl.min.css</code> and 
+                                                        <code>bootstrap.min.css</code> to
+                                                        <code>bootstrap-rtl.min.css</code> and in the <code>src/partials/main.html</code> file update the html tag like <code>&lt;html lang="en" dir="rtl"></html></code>.
+                                                    </p>
+                                                </div>
+
+                                                <div id="pre-built-layouts">
+
+                                                    <div class="row mb-2 mt-3">
+                                                        <div class="col">
+                                                            <h5 class="mt-0 mb-2 font-size-18"><i class="mdi mdi-star text-warning"></i> How to use pre-built
+                                                                layouts?</h5>
+                                                            <p>
+                                                                Each of the layout options is provided below with
+                                                                steps you would need to perform in:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-1.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Light Sidebar</h5>
+                                                                Remove data attribute
+                                                                <code>data-sidebar="dark"</code> body element to
+                                                                have light sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-2.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Compact Sidebar</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-sidebar-size="md"</code> E.g.
+                                                                <code> &lt;body data-sidebar-size="md"&gt;</code>
+                                                                to have compact sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-3.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Icon View Sidebar</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-sidebar-size="sm"</code> E.g.
+                                                                <code> &lt;body data-sidebar-size="sm"&gt;</code>
+                                                                to have small sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-4.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Boxed Layout</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-layout-size="boxed"</code> E.g.
+                                                                <code> &lt;body data-layout-size="boxed"&gt;</code>
+                                                                to have boxed layout.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/vertical-5.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Brand Sidebar</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-sidebar="brand"</code> E.g.
+                                                                <code> &lt;body data-sidebar="brand"&gt;</code> to
+                                                                have colored sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/vertical-6.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Scrollable Layout</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-layout-scrollable="true"</code> E.g.
+                                                                <code> &lt;body data-layout-scrollable="true"&gt;</code> to
+                                                                have scrollable layout.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                    </div>
+                                                    <!-- end row -->
+                                                </div>
+
+                                                <div id="multi" class="mb-5">
+                                                    <h5 class="mt-4">Multi Language Settings</h5>
+                                                    <p>Lets add french language.</p>
+                                                    <ul>
+                                                        <li> Create new file fr.json in the fr folder in the <code>src/assets/lang</code> folder and copy the en.json file code in this file.</li>
+                                                        <li>
+                                                            Now you need to add the language in the <code>src/assets/js/lang/jquery.multiLanguage.js</code> file. In the function setLanguage add the "else if" condition as below and make sure to add french.jpg file.
+<pre>    else if(lang=='fr') {
+        document.getElementById("header-lang-img").src = "assets/images/flags/french.jpg";
+    }
+</pre>
+                                                        </li>
+                                                        <li> You can simply use in the HTML file to convert the language text just add the attribute "key" to the parent div or any HTML tag.
+                                                            Example: &lt;div key="t-title"&gt;This is title.&lt;/div&gt;</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div id="tips">
+                                                    <h5 class="mt-4">Tips</h5>
+
+                                                    <p>
+                                                        SCSS: We suggest you to do not change any scss files from the assets/scss/custom folders because to get new updates will might be break your SCSS changes if any you have made. We strongly suggest you
+                                                        to create new custom.scss file and use that instead of overwrite
+                                                        any theme's custom scss files.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Start right-side-nav -->
+                                            <div class="d-none d-xl-block">
+                                                <div class="right-side-nav">
+                                                    <ul class="nav nav-pills flex-column">
+                                                        <li class="nav-item">
+                                                            <a href="#desc" class="nav-link">Description</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#prerequisites" class="nav-link">Prerequisites</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#installation" class="nav-link">Installation</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#menu-item" class="nav-link">Customize
+                                                                menu items</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#change-width" class="nav-link">Change width</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#light-version" class="nav-link">Light Mode</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#dark-version" class="nav-link">Dark Mode</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#rtl-version" class="nav-link">RTL Mode</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#pre-built-layouts" class="nav-link">Use pre-built
+                                                                layouts</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#multi" class="nav-link">Multi Language Settings </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#tips" class="nav-link">Tips</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- End right-side-nav -->
+                                        </div>
+
+                                    </div> <!-- end padding-->
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © Pichforest.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-right d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://pichforest.com/" target="_blank" class="text-muted">Pichforest</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/jquery.easing/jquery.easing.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
