@@ -1,1 +1,0 @@
-var spy=new Gumshoe("#elements_Bar a",{offset:72});scroll=new SmoothScroll("#elements_Bar a",{speed:50,offset:72});
